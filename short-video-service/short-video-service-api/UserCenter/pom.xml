@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.threesome.api</groupId>
+        <artifactId>short-video-service-api</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.threesome.api.user</groupId>
+    <artifactId>UserCenter</artifactId>
+
+    <packaging>pom</packaging>
+    <modules>
+        <module>user-logon-service</module>
+        <module>user-login-service</module>
+        <module>user-update-service</module>
+        <module>user-delete-service</module>
+        <module>user-detail-service</module>
+        <module>user-balance-service</module>
+        <module>user-score-service</module>
+        <module>user-recharge-history-service</module>
+        <module>user-consumer-history-service</module>
+        <module>user-favorite-video-service</module>
+        <module>user-favorite-album-service</module>
+        <module>user-play-history-service</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>

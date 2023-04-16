@@ -1,0 +1,43 @@
+user
+user logon - create
+user login - retrieve
+user update - update
+user delete - delete
+user detail - retrieve
+user balance - recharge 
+user score - retrieve
+user recharge history - retrieve
+user consumer history - retrieve
+user favorite video - retrieve
+user favorite album - retrieve
+user play history - retrieve
+
+member
+member add - create
+member retrieve - retrieve
+member update - update
+member delete - delete
+member level - retrieve
+member score - retrieve
+member recharge history - retrieve
+member consumer history - retrieve
+
+score
+score acquire - add
+score deduct - deduct
+
+media
+video list - retrieve
+video detail - retrieve
+video purchase - purchase
+video load - load
+video play record - record
+
+payment
+payment balance - retrieve
+payment balance - deduct
+payment balance - recharge
+ 
+
+
+
