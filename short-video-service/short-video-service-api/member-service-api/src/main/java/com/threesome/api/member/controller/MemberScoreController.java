@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MemberScoreController {
-    @GetMapping("/member/level")
+    @GetMapping("/member/score")
     public void retrieve(){
 
     }
