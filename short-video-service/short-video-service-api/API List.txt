@@ -1,4 +1,4 @@
-user
+user-service:
 user logon - create
 user login - retrieve
 user update - update
@@ -12,7 +12,7 @@ user favorite video - retrieve
 user favorite album - retrieve
 user play history - retrieve
 
-member
+member-service:
 member add - create
 member retrieve - retrieve
 member update - update
@@ -22,18 +22,18 @@ member score - retrieve
 member recharge history - retrieve
 member consumer history - retrieve
 
-score
+score-service:
 score acquire - add
 score deduct - deduct
 
-media
+media-service:
 video list - retrieve
 video detail - retrieve
 video purchase - purchase
 video load - load
 video play record - record
 
-payment
+payment-service:
 payment balance - retrieve
 payment balance - deduct
 payment balance - recharge
