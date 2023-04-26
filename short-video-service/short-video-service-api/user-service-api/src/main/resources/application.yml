@@ -1,0 +1,14 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      server-addr: 192.168.112.130:8840
+      discovery:
+        username: nacos
+        password: nacos
+        namespace: public
+        group: UserCenter

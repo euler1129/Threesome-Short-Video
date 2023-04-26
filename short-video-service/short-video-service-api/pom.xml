@@ -13,12 +13,11 @@
 
     <packaging>pom</packaging>
     <modules>
-        <module>UserCenter</module>
-        <module>MediaCenter</module>
-        <module>PaymentCenter</module>
-        <module>MemberCenter</module>
-        <module>ScoreCenter</module>
-        <module>MemberCenter</module>
+        <module>user-service-api</module>
+        <module>member-service-api</module>
+        <module>score-service-api</module>
+        <module>media-service-api</module>
+        <module>payment-service-api</module>
     </modules>
 
 
@@ -40,6 +39,16 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.threesome.common</groupId>
+            <artifactId>short-video-service-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.threesome.dao</groupId>
+            <artifactId>short-video-service-dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

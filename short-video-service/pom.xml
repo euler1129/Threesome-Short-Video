@@ -13,7 +13,6 @@
         <module>short-video-service-api</module>
         <module>short-video-service-dao</module>
         <module>short-video-service-common</module>
-        <module>short-video-service-api/MemberCenter/member-consumer-history-service</module>
     </modules>
 
     <packaging>pom</packaging>

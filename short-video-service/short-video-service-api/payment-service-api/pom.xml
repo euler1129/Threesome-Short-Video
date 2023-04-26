@@ -4,14 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.threesome</groupId>
-        <artifactId>short-video-service</artifactId>
+        <groupId>com.threesome.api</groupId>
+        <artifactId>short-video-service-api</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.threesome.common</groupId>
-    <artifactId>short-video-service-common</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.threesome.api.payment</groupId>
+    <artifactId>payment-service-api</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
